@@ -1,0 +1,101 @@
+﻿* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.registration {
+	margin: 40px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.registration h1 {
+	margin-left: 100px;
+	font-weight: normal;
+	margin-top: -20px;
+	
+}
+
+.registration p {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+.registration .firstname {
+	margin-left: 10px;
+	height: 20px;
+	
+}
+
+.registration .lastname {
+	margin-left: 10px;
+	height: 20px;
+}
+
+.registration .email {
+	margin-left: 47px;
+	height: 20px;
+}
+
+.registration .password {
+	margin-left: 19px;
+	height: 20px;
+}
+
+.registration .confirm {
+	margin-left: 4px;
+	height: 20px;
+}
+
+.registration button {
+	margin-top: 20px;
+	margin-left: 150px;
+	height: 30px;
+	width: 70px;
+	box-shadow: 2px 2px;
+	
+}
+
+.login {
+	margin: 40px;
+	vertical-align: top;
+	display: inline-block;
+	
+}
+
+.login h1 {
+	margin-left: 100px;
+	font-weight: normal;
+	
+}
+
+.login p {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+.login .email {
+	margin-left: 20px;
+	height: 20px;
+	
+}
+
+.login .password {
+	margin-left: -8px;
+	height: 20px;
+	
+}
+
+.login button {
+	margin-top: 20px;
+	margin-left: 120px;
+	height: 26px;
+	width: 60px;
+	box-shadow: 2px 2px;
+	
+}

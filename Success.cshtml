@@ -1,0 +1,15 @@
+@model User
+
+<h1>Success!</h1>
+<a href="/">Logout</a>
+<hr>
+@{
+    foreach(var user in @ViewBag.Users){
+        <a href="@user.UserId">@user.FirstName </a>
+        <p>@user.LastName</p>
+        <p>@user.Email</p>
+        <p>@user.Password</p>
+        <p>@user.UserId</p>
+        <hr>
+    }
+}
